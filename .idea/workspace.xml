@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="Изменение цены разных телефонов" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="Расчет вклада через цикл for">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/lesson5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 5/lesson 5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/src/Deposite.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +37,25 @@
     &quot;assignee&quot;: &quot;keeper10-sad&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/keeper10-sad/bftStudyAqa.git&quot;,
-    &quot;accountId&quot;: &quot;8b2ef9a4-7ee2-4980-b6d8-a5d2e40dce2a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/keeper10-sad/bftStudyAqa.git",
+    "accountId": "8b2ef9a4-7ee2-4980-b6d8-a5d2e40dce2a"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "keeper10-sad",
+    "repository": "bftStudyAqa"
   }
-}</component>
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -48,15 +67,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Deposite.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#5 on firstCode",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson3/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson 5/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Deposite">
+    <configuration name="Deposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Deposite" />
+      <module name="lesson 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="lesson3" />
@@ -66,6 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deposite" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
