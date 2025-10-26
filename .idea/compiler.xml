@@ -13,6 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="777" target="25" />
       <module name="lesson5" target="1.8" />
       <module name="studyProject" target="1.8" />
     </bytecodeTargetLevel>
