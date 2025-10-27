@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="&#10;Увеличение суммы вклада через цикл for">
-      <change afterPath="$PROJECT_DIR$/lesson5while/lesson5while.iml" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="&#10;Увеличение суммы вклада через цикл while">
+      <change afterPath="$PROJECT_DIR$/lesson6/lesson6.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -73,6 +73,8 @@
     "Application.Deposite (2).executor": "Run",
     "Application.Deposite.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Massive.executor": "Run",
+    "Application.Replace.executor": "Run",
     "Application.lesson5.Deposite.executor": "Run",
     "Application.lesson5for.Deposite.executor": "Run",
     "Application.lesson5while.Deposite.executor": "Run",
@@ -81,13 +83,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "#5 on firstCode",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/777/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson6/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Deposite (1)">
+  <component name="RunManager" selected="Application.Massive">
     <configuration name="Deposite (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Deposite" />
       <module name="lesson5while" />
@@ -99,6 +102,20 @@
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Deposite" />
       <module name="777" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Massive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Massive" />
+      <module name="lesson6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Replace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replace" />
+      <module name="lesson6" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,33 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson5for.Deposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5for.Deposite" />
-      <module name="777" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson5while.Deposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5while.Deposite" />
-      <module name="777" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson5while.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Massive" />
+        <item itemvalue="Application.Replace" />
         <item itemvalue="Application.Deposite (1)" />
         <item itemvalue="Application.lesson5.Deposite" />
         <item itemvalue="Application.Deposite (2)" />
-        <item itemvalue="Application.lesson5for.Deposite" />
-        <item itemvalue="Application.lesson5while.Deposite" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761468303122</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;Увеличение суммы вклада через цикл while">
+      <option name="closed" value="true" />
+      <created>1761472382056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761472382056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Изменение цены разных телефонов" />
     <MESSAGE value="&#10;Увеличение суммы вклада через цикл for" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Увеличение суммы вклада через цикл for" />
+    <MESSAGE value="&#10;Увеличение суммы вклада через цикл while" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Увеличение суммы вклада через цикл while" />
   </component>
 </project>
