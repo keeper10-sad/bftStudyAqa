@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="&#10;Увеличение суммы вклада через цикл while">
-      <change afterPath="$PROJECT_DIR$/lesson6/lesson6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="&#10;Работа с массивом и редактирование строк">
+      <change afterPath="$PROJECT_DIR$/lesson7/lesson7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson7/src/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -39,22 +38,22 @@
     &quot;assignee&quot;: &quot;keeper10-sad&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/keeper10-sad/bftStudyAqa.git",
-    "accountId": "8b2ef9a4-7ee2-4980-b6d8-a5d2e40dce2a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/keeper10-sad/bftStudyAqa.git&quot;,
+    &quot;accountId&quot;: &quot;8b2ef9a4-7ee2-4980-b6d8-a5d2e40dce2a&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "keeper10-sad",
-    "repository": "bftStudyAqa"
+    &quot;owner&quot;: &quot;keeper10-sad&quot;,
+    &quot;repository&quot;: &quot;bftStudyAqa&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -72,6 +71,7 @@
     "Application.Deposite (1).executor": "Run",
     "Application.Deposite (2).executor": "Run",
     "Application.Deposite.executor": "Run",
+    "Application.Employee.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Massive.executor": "Run",
     "Application.Replace.executor": "Run",
@@ -81,27 +81,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#5 on firstCode",
+    "git-widget-placeholder": "firstCode",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson6/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson7/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Massive">
-    <configuration name="Deposite (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Deposite" />
-      <module name="lesson5while" />
+  <component name="RunManager" selected="Application.Shape">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employee" />
+      <module name="lesson7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Deposite (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Deposite" />
-      <module name="777" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lesson7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,26 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson5.Deposite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.Deposite" />
-      <module name="777" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shape" />
+      <module name="lesson7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shape" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Employee" />
         <item itemvalue="Application.Massive" />
         <item itemvalue="Application.Replace" />
-        <item itemvalue="Application.Deposite (1)" />
-        <item itemvalue="Application.lesson5.Deposite" />
-        <item itemvalue="Application.Deposite (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761472382056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;Работа с массивом и редактирование строк">
+      <option name="closed" value="true" />
+      <created>1761559486309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761559486309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +206,7 @@
     <MESSAGE value="Изменение цены разных телефонов" />
     <MESSAGE value="&#10;Увеличение суммы вклада через цикл for" />
     <MESSAGE value="&#10;Увеличение суммы вклада через цикл while" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Увеличение суммы вклада через цикл while" />
+    <MESSAGE value="&#10;Работа с массивом и редактирование строк" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Работа с массивом и редактирование строк" />
   </component>
 </project>
