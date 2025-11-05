@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="&#10;Работа с массивом и редактирование строк">
-      <change afterPath="$PROJECT_DIR$/lesson7/lesson7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8_1/lesson8_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson8_1/src/Playable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -21,6 +30,7 @@
       <list>
         <option value="SimpleSourceFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -72,49 +82,55 @@
     "Application.Deposite (2).executor": "Run",
     "Application.Deposite.executor": "Run",
     "Application.Employee.executor": "Run",
+    "Application.Instrument (1).executor": "Run",
+    "Application.Instrument$Guitar.executor": "Run",
+    "Application.Instrument$Piano.executor": "Run",
+    "Application.Instrument.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Massive.executor": "Run",
     "Application.Replace.executor": "Run",
     "Application.lesson5.Deposite.executor": "Run",
     "Application.lesson5for.Deposite.executor": "Run",
     "Application.lesson5while.Deposite.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "firstCode",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson7/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson8_1/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Shape">
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Employee" />
-      <module name="lesson7" />
+  <component name="RunManager" selected="Application.Instrument (1)">
+    <configuration name="Instrument (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Instrument" />
+      <module name="lesson8_1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="lesson7" />
+    <configuration name="Instrument$Guitar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Instrument$Guitar" />
+      <module name="lesson8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Massive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Massive" />
-      <module name="lesson6" />
+    <configuration name="Instrument$Piano" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Instrument$Piano" />
+      <module name="lesson8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Replace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replace" />
-      <module name="lesson6" />
+    <configuration name="Instrument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Instrument" />
+      <module name="lesson8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Instrument (1)" />
+        <item itemvalue="Application.Instrument" />
+        <item itemvalue="Application.Instrument$Piano" />
+        <item itemvalue="Application.Instrument$Guitar" />
         <item itemvalue="Application.Shape" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.Massive" />
-        <item itemvalue="Application.Replace" />
       </list>
     </recent_temporary>
   </component>
