@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="&#10;Работа с массивом и редактирование строк">
-      <change afterPath="$PROJECT_DIR$/lesson8/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/java/Playable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8_1/lesson8_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8_1/src/Playable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="&#10;Интерфейс">
+      <change afterPath="$PROJECT_DIR$/lesson9/lesson9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -88,35 +77,33 @@
     "Application.Instrument.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Massive.executor": "Run",
+    "Application.Random.executor": "Run",
     "Application.Replace.executor": "Run",
     "Application.lesson5.Deposite.executor": "Run",
     "Application.lesson5for.Deposite.executor": "Run",
     "Application.lesson5while.Deposite.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "firstCode",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson8_1/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson9/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Instrument (1)">
+  <component name="RunManager" selected="Application.RandomNumbers">
     <configuration name="Instrument (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Instrument" />
       <module name="lesson8_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Instrument$Guitar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Instrument$Guitar" />
-      <module name="lesson8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,20 +122,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shape" />
-      <module name="lesson7" />
+    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Random" />
+      <module name="lesson9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomNumbers" />
+      <module name="lesson9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomNumbers" />
+        <item itemvalue="Application.Random" />
         <item itemvalue="Application.Instrument (1)" />
         <item itemvalue="Application.Instrument" />
         <item itemvalue="Application.Instrument$Piano" />
-        <item itemvalue="Application.Instrument$Guitar" />
-        <item itemvalue="Application.Shape" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761559486309</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&#10;Интерфейс">
+      <option name="closed" value="true" />
+      <created>1762354402117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762354402117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +225,7 @@
     <MESSAGE value="&#10;Увеличение суммы вклада через цикл for" />
     <MESSAGE value="&#10;Увеличение суммы вклада через цикл while" />
     <MESSAGE value="&#10;Работа с массивом и редактирование строк" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Работа с массивом и редактирование строк" />
+    <MESSAGE value="&#10;Интерфейс" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Интерфейс" />
   </component>
 </project>
