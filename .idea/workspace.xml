@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="&#10;Интерфейс">
-      <change afterPath="$PROJECT_DIR$/lesson9/lesson9.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="использование библиотеки Math.random">
+      <change afterPath="$PROJECT_DIR$/lesson11/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/SuccesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SimpleSourceFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,11 +81,13 @@
     "Application.Main.executor": "Run",
     "Application.Massive.executor": "Run",
     "Application.Random.executor": "Run",
+    "Application.RandomNumbers.executor": "Run",
     "Application.Replace.executor": "Run",
     "Application.lesson5.Deposite.executor": "Run",
     "Application.lesson5for.Deposite.executor": "Run",
     "Application.lesson5while.Deposite.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.SuccesTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -93,6 +98,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "firstCode",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa",
     "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson9/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -100,17 +106,15 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RandomNumbers">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\lesson11" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SuccesTest">
     <configuration name="Instrument (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Instrument" />
       <module name="lesson8_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Instrument$Piano" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Instrument$Piano" />
-      <module name="lesson8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,13 +140,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuccesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SuccesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuccesTest" />
         <item itemvalue="Application.RandomNumbers" />
         <item itemvalue="Application.Random" />
         <item itemvalue="Application.Instrument (1)" />
         <item itemvalue="Application.Instrument" />
-        <item itemvalue="Application.Instrument$Piano" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762354402117</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="использование библиотеки Math.random">
+      <option name="closed" value="true" />
+      <created>1762696250579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762696250579</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +247,7 @@
     <MESSAGE value="&#10;Увеличение суммы вклада через цикл while" />
     <MESSAGE value="&#10;Работа с массивом и редактирование строк" />
     <MESSAGE value="&#10;Интерфейс" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Интерфейс" />
+    <MESSAGE value="использование библиотеки Math.random" />
+    <option name="LAST_COMMIT_MESSAGE" value="использование библиотеки Math.random" />
   </component>
 </project>
