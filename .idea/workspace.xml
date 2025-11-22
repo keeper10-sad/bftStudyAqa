@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="использование библиотеки Math.random">
-      <change afterPath="$PROJECT_DIR$/lesson11/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/src/test/java/SuccesTest.java" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="UI-тест поиск в Яндекс">
+      <change afterPath="$PROJECT_DIR$/lesson12/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12/src/test/java/pages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12/src/test/java/pages/element/SearchInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12/src/test/java/settings/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12/src/test/java/test/SearchPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/target/allure-results/4ac85822-8b6f-4a5f-bf1e-463457d878c4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/target/allure-results/603a976f-81c3-42ca-ae29-aa7c0869892d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/target/allure-results/d0de14ed-1579-4dfb-8410-cfc8b3845771-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/target/surefire-reports/SuccesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/target/surefire-reports/SuccesTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/target/surefire-reports/TEST-SuccesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/target/surefire-reports/TEST-SuccesTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +96,7 @@
     "Application.lesson5for.Deposite.executor": "Run",
     "Application.lesson5while.Deposite.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.SearchPageTest.test.executor": "Run",
     "JUnit.SuccesTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -111,17 +121,10 @@
       <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\lesson11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SuccesTest">
+  <component name="RunManager" selected="JUnit.SearchPageTest.test">
     <configuration name="Instrument (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Instrument" />
       <module name="lesson8_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Instrument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Instrument" />
-      <module name="lesson8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,6 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchPageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SearchPageTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SuccesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lesson11" />
       <option name="PACKAGE_NAME" value="" />
@@ -151,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchPageTest.test" />
         <item itemvalue="JUnit.SuccesTest" />
         <item itemvalue="Application.RandomNumbers" />
         <item itemvalue="Application.Random" />
         <item itemvalue="Application.Instrument (1)" />
-        <item itemvalue="Application.Instrument" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762696250579</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="UI-тест поиск в Яндекс">
+      <option name="closed" value="true" />
+      <created>1763705795403</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763705795403</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +275,7 @@
     <MESSAGE value="&#10;Работа с массивом и редактирование строк" />
     <MESSAGE value="&#10;Интерфейс" />
     <MESSAGE value="использование библиотеки Math.random" />
-    <option name="LAST_COMMIT_MESSAGE" value="использование библиотеки Math.random" />
+    <MESSAGE value="UI-тест поиск в Яндекс" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI-тест поиск в Яндекс" />
   </component>
 </project>
