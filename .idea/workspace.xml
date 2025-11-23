@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="UI-тест поиск в Яндекс">
-      <change afterPath="$PROJECT_DIR$/lesson12/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/src/test/java/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/src/test/java/pages/element/SearchInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/src/test/java/settings/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12/src/test/java/test/SearchPageTest.java" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="UI-тест поиск в Яндекс c патернами PageObject и PageElement">
+      <change afterPath="$PROJECT_DIR$/lesson13/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/test/java/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13/src/test/java/NewExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/target/allure-results/4ac85822-8b6f-4a5f-bf1e-463457d878c4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/target/allure-results/603a976f-81c3-42ca-ae29-aa7c0869892d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/target/allure-results/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/target/allure-results/d0de14ed-1579-4dfb-8410-cfc8b3845771-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/target/surefire-reports/SuccesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/target/surefire-reports/SuccesTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson11/target/surefire-reports/TEST-SuccesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/target/surefire-reports/TEST-SuccesTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +92,8 @@
     "Application.lesson5for.Deposite.executor": "Run",
     "Application.lesson5while.Deposite.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.Exceptions.exception.executor": "Run",
+    "JUnit.NewExceptions.exception.executor": "Run",
     "JUnit.SearchPageTest.test.executor": "Run",
     "JUnit.SuccesTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -121,24 +119,30 @@
       <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\lesson11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchPageTest.test">
-    <configuration name="Instrument (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Instrument" />
-      <module name="lesson8_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Random" />
-      <module name="lesson9" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Exceptions.exception">
     <configuration name="RandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RandomNumbers" />
       <module name="lesson9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exceptions.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson13" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="exception" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewExceptions.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson13" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NewExceptions" />
+      <option name="METHOD_NAME" value="exception" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Exceptions.exception" />
+        <item itemvalue="JUnit.NewExceptions.exception" />
+        <item itemvalue="JUnit.NewExceptions.exception" />
         <item itemvalue="JUnit.SearchPageTest.test" />
         <item itemvalue="JUnit.SuccesTest" />
-        <item itemvalue="Application.RandomNumbers" />
-        <item itemvalue="Application.Random" />
-        <item itemvalue="Application.Instrument (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763705795403</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="UI-тест поиск в Яндекс c патернами PageObject и PageElement">
+      <option name="closed" value="true" />
+      <created>1763807169352</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763807169352</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +288,7 @@
     <MESSAGE value="&#10;Интерфейс" />
     <MESSAGE value="использование библиотеки Math.random" />
     <MESSAGE value="UI-тест поиск в Яндекс" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI-тест поиск в Яндекс" />
+    <MESSAGE value="UI-тест поиск в Яндекс c патернами PageObject и PageElement" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI-тест поиск в Яндекс c патернами PageObject и PageElement" />
   </component>
 </project>
