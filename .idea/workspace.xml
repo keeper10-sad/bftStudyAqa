@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="UI-тест поиск в Яндекс c патернами PageObject и PageElement">
-      <change afterPath="$PROJECT_DIR$/lesson13/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/test/java/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13/src/test/java/NewExceptions.java" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="Обработка исключений">
+      <change afterPath="$PROJECT_DIR$/lesson14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/test/java/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -75,6 +74,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Box.executor": "Run",
     "Application.Deposite (1).executor": "Run",
     "Application.Deposite (2).executor": "Run",
     "Application.Deposite.executor": "Run",
@@ -119,10 +119,10 @@
       <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\lesson11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Exceptions.exception">
-    <configuration name="RandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomNumbers" />
-      <module name="lesson9" />
+  <component name="RunManager" selected="Application.Box">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Box" />
+      <module name="lesson14" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Box" />
         <item itemvalue="JUnit.Exceptions.exception" />
         <item itemvalue="JUnit.NewExceptions.exception" />
         <item itemvalue="JUnit.NewExceptions.exception" />
         <item itemvalue="JUnit.SearchPageTest.test" />
-        <item itemvalue="JUnit.SuccesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763807169352</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Обработка исключений">
+      <option name="closed" value="true" />
+      <created>1763882753338</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763882753338</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +297,7 @@
     <MESSAGE value="использование библиотеки Math.random" />
     <MESSAGE value="UI-тест поиск в Яндекс" />
     <MESSAGE value="UI-тест поиск в Яндекс c патернами PageObject и PageElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI-тест поиск в Яндекс c патернами PageObject и PageElement" />
+    <MESSAGE value="Обработка исключений" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обработка исключений" />
   </component>
 </project>
