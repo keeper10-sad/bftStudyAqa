@@ -1,0 +1,13 @@
+page\PracticeForm.class
+settings\BaseClass.class
+test\RequiredInputValidationTest$1.class
+utils\UtilsCollection.class
+page\enums\DateValues.class
+test\PhoneEmailValidationTest.class
+page\enums\InvalidValues.class
+page\components\ResultModal.class
+test\SuccesfullSubmitTest.class
+page\enums\RequiredInput.class
+test\DateBirthValidationTest.class
+page\components\Calendar.class
+test\RequiredInputValidationTest.class

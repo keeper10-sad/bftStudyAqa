@@ -1,0 +1,15 @@
+tests\createbooking\CreateBookingTest.class
+settings\BaseClass.class
+tests\update\UpdateBookingTest.class
+utils\CreateToken.class
+components\enums\NotValidDate.class
+components\enums\RequiredInputs.class
+components\enums\UpdateInvalidData.class
+tests\getbooking\GetBookingsTest.class
+components\enums\BodyWithInvalidDate.class
+utils\CreateBooking.class
+components\enums\NotValidData.class
+tests\getbooking\GetBookingIdsTest.class
+components\enums\UpdateRequredInputs.class
+tests\delete\DeleteBookingTest.class
+tests\update\PartialUpdateBookingTest.class

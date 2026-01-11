@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.getbooking.GetBookingIdsTest" time="7.253" tests="11" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project_api\target\test-classes;C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project_api\target\classes;C:\Users\a.dorokhin\.m2\repository\com\codeborne\selenide\7.2.3\selenide-7.2.3.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\a.dorokhin\.m2\repository\com\codeborne\selenide-core\7.2.3\selenide-core-7.2.3.jar;C:\Users\a.dorokhin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.3.1\httpclient5-5.3.1.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2.4\httpcore5-5.2.4.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2.4\httpcore5-h2-5.2.4.jar;C:\Users\a.dorokhin\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\a.dorokhin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\a.dorokhin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\a.dorokhin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\a.dorokhin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\a.dorokhin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\a.dorokhin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\a.dorokhin\.m2\repository\commons-io\commons-io\2.16.0\commons-io-2.16.0.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.0\junit-vintage-engine-5.10.0.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\a.dorokhin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\a.dorokhin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\a.dorokhin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-junit5\2.29.0\allure-junit5-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-junit-platform\2.29.0\allure-junit-platform-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.3\junit-platform-launcher-1.10.3.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\a.dorokhin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\a.dorokhin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\a.dorokhin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\a.dorokhin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\a.dorokhin\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\a.dorokhin\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\a.dorokhin\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\a.dorokhin\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\a.dorokhin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\a.dorokhin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-selenide\2.29.0\allure-selenide-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\a.dorokhin\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\a.dorokhin\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Nairobi"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\a.dorokhin\AppData\Local\Temp\surefire437604798597820150\surefirebooter-20260111125245486_3.jar C:\Users\a.dorokhin\AppData\Local\Temp\surefire437604798597820150 2026-01-11T12-52-45_361-jvmRun1 surefire-20260111125245486_1tmp surefire_0-20260111125245486_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project_api\target\test-classes;C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project_api\target\classes;C:\Users\a.dorokhin\.m2\repository\com\codeborne\selenide\7.2.3\selenide-7.2.3.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\a.dorokhin\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\a.dorokhin\.m2\repository\com\codeborne\selenide-core\7.2.3\selenide-core-7.2.3.jar;C:\Users\a.dorokhin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.3.1\httpclient5-5.3.1.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2.4\httpcore5-5.2.4.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2.4\httpcore5-h2-5.2.4.jar;C:\Users\a.dorokhin\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\a.dorokhin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\a.dorokhin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\a.dorokhin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\a.dorokhin\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\a.dorokhin\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\a.dorokhin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\a.dorokhin\.m2\repository\commons-io\commons-io\2.16.0\commons-io-2.16.0.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.0\junit-vintage-engine-5.10.0.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\a.dorokhin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\a.dorokhin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\a.dorokhin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-junit5\2.29.0\allure-junit5-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-junit-platform\2.29.0\allure-junit-platform-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.3\junit-platform-launcher-1.10.3.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\a.dorokhin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\a.dorokhin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\a.dorokhin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\a.dorokhin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\a.dorokhin\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\a.dorokhin\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\a.dorokhin\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\a.dorokhin\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\a.dorokhin\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\a.dorokhin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\a.dorokhin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-selenide\2.29.0\allure-selenide-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\a.dorokhin\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\a.dorokhin\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\a.dorokhin\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project_api\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\a.dorokhin"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project_api"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\a.dorokhin\AppData\Local\Temp\surefire437604798597820150\surefirebooter-20260111125245486_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="a.dorokhin"/>
+    <property name="stdout.encoding" value="Cp1251"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\a.dorokhin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ACAEE~1.DOR\AppData\Local\Temp\"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project_api"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\a.dorokhin\Desktop\apache-maven-3.9.11;C:\Users\a.dorokhin\IdeaProjects\BftMyFirstTests\build\downloads;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\a.dorokhin\AppData\Local\Programs\Lens\resources\cli\bin;C:\Users\a.dorokhin\IdeaProjects\BftMyFirstTests\build\downloads;C:\Users\a.dorokhin\IdeaProjects\BftMyFirstTests\build\downloads\apache-maven-3.9.11\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1251"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="Cp1251"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="getBookingIdsFilteringByNameAndDate" classname="tests.getbooking.GetBookingIdsTest" time="0.0">
+    <skipped message="void tests.getbooking.GetBookingIdsTest.getBookingIdsFilteringByNameAndDate() is @Disabled"/>
+  </testcase>
+  <testcase name="getBookingIdsFilteringNotExistName" classname="tests.getbooking.GetBookingIdsTest" time="0.672">
+    <system-out><![CDATA[Request URI:	https://restful-booker.herokuapp.com/booking?firstname=934579%26%28%28*&lastname=984608%28*%26%5E
+HTTP/1.1 200 OK
+[
+    
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingIdsFilteringNotValidDate(NotValidDate)[1]" classname="tests.getbooking.GetBookingIdsTest" time="0.655">
+    <system-out><![CDATA[Request URI:	https://restful-booker.herokuapp.com/booking?checkin=2030-01-01&checkout=2030-01-10
+HTTP/1.1 200 OK
+[
+    
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingIdsFilteringNotValidDate(NotValidDate)[2]" classname="tests.getbooking.GetBookingIdsTest" time="0.65">
+    <system-out><![CDATA[Request URI:	https://restful-booker.herokuapp.com/booking?checkin=1931-01-01&checkout=1931-01-02
+HTTP/1.1 200 OK
+[
+    
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingIdsFilteringNotValidDate(NotValidDate)[3]" classname="tests.getbooking.GetBookingIdsTest" time="0.67">
+    <system-out><![CDATA[Request URI:	https://restful-booker.herokuapp.com/booking?checkin=2025-01-10&checkout=2025-01-01
+HTTP/1.1 200 OK
+[
+    
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingIdsFilteringNotValidDate(NotValidDate)[4]" classname="tests.getbooking.GetBookingIdsTest" time="0.645">
+    <system-out><![CDATA[Request URI:	https://restful-booker.herokuapp.com/booking?checkin=2099-12-31&checkout=2099-12-31
+HTTP/1.1 200 OK
+[
+    
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingIdsFilteringNotValidDate(NotValidDate)[5]" classname="tests.getbooking.GetBookingIdsTest" time="0.662">
+    <system-out><![CDATA[Request URI:	https://restful-booker.herokuapp.com/booking?checkin=1-02-31&checkout=1-11-21
+HTTP/1.1 200 OK
+[
+    
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingIdsFilteringNotValidDate(NotValidDate)[6]" classname="tests.getbooking.GetBookingIdsTest" time="1.083">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at tests.getbooking.GetBookingIdsTest.getBookingIdsFilteringNotValidDate(GetBookingIdsTest.java:159)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+]]></failure>
+    <system-out><![CDATA[Request URI:	https://restful-booker.herokuapp.com/booking?checkin=2025-16-01&checkout=2026-01-10
+HTTP/1.1 500 Internal Server Error
+Internal Server Error
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingIdsGivenList" classname="tests.getbooking.GetBookingIdsTest" time="0.719">
+    <system-out><![CDATA[Request URI:	https://restful-booker.herokuapp.com/booking
+HTTP/1.1 200 OK
+[
+    {
+        "bookingid": 377
+    },
+    {
+        "bookingid": 180
+    },
+    {
+        "bookingid": 597
+    },
+    {
+        "bookingid": 692
+    },
+    {
+        "bookingid": 29
+    },
+    {
+        "bookingid": 138
+    },
+    {
+        "bookingid": 929
+    },
+    {
+        "bookingid": 829
+    },
+    {
+        "bookingid": 566
+    },
+    {
+        "bookingid": 340
+    },
+    {
+        "bookingid": 251
+    },
+    {
+        "bookingid": 70
+    },
+    {
+        "bookingid": 593
+    },
+    {
+        "bookingid": 41
+    },
+    {
+        "bookingid": 641
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 153
+    },
+    {
+        "bookingid": 847
+    },
+    {
+        "bookingid": 735
+    },
+    {
+        "bookingid": 776
+    },
+    {
+        "bookingid": 890
+    },
+    {
+        "bookingid": 213
+    },
+    {
+        "bookingid": 230
+    },
+    {
+        "bookingid": 916
+    },
+    {
+        "bookingid": 792
+    },
+    {
+        "bookingid": 515
+    },
+    {
+        "bookingid": 383
+    },
+    {
+        "bookingid": 351
+    },
+    {
+        "bookingid": 854
+    },
+    {
+        "bookingid": 647
+    },
+    {
+        "bookingid": 569
+    },
+    {
+        "bookingid": 228
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 144
+    },
+    {
+        "bookingid": 335
+    },
+    {
+        "bookingid": 458
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 652
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 121
+    },
+    {
+        "bookingid": 464
+    },
+    {
+        "bookingid": 519
+    },
+    {
+        "bookingid": 222
+    },
+    {
+        "bookingid": 211
+    },
+    {
+        "bookingid": 129
+    },
+    {
+        "bookingid": 283
+    },
+    {
+        "bookingid": 64
+    },
+    {
+        "bookingid": 446
+    },
+    {
+        "bookingid": 34
+    },
+    {
+        "bookingid": 813
+    },
+    {
+        "bookingid": 705
+    },
+    {
+        "bookingid": 315
+    },
+    {
+        "bookingid": 199
+    },
+    {
+        "bookingid": 74
+    },
+    {
+        "bookingid": 936
+    },
+    {
+        "bookingid": 700
+    },
+    {
+        "bookingid": 724
+    },
+    {
+        "bookingid": 260
+    },
+    {
+        "bookingid": 95
+    },
+    {
+        "bookingid": 102
+    },
+    {
+        "bookingid": 855
+    },
+    {
+        "bookingid": 412
+    },
+    {
+        "bookingid": 527
+    },
+    {
+        "bookingid": 474
+    },
+    {
+        "bookingid": 749
+    },
+    {
+        "bookingid": 410
+    },
+    {
+        "bookingid": 432
+    },
+    {
+        "bookingid": 120
+    },
+    {
+        "bookingid": 168
+    },
+    {
+        "bookingid": 871
+    },
+    {
+        "bookingid": 911
+    },
+    {
+        "bookingid": 523
+    },
+    {
+        "bookingid": 217
+    },
+    {
+        "bookingid": 214
+    },
+    {
+        "bookingid": 244
+    },
+    {
+        "bookingid": 104
+    },
+    {
+        "bookingid": 18
+    },
+    {
+        "bookingid": 427
+    },
+    {
+        "bookingid": 703
+    },
+    {
+        "bookingid": 127
+    },
+    {
+        "bookingid": 620
+    },
+    {
+        "bookingid": 415
+    },
+    {
+        "bookingid": 365
+    },
+    {
+        "bookingid": 59
+    },
+    {
+        "bookingid": 715
+    },
+    {
+        "bookingid": 274
+    },
+    {
+        "bookingid": 132
+    },
+    {
+        "bookingid": 554
+    },
+    {
+        "bookingid": 487
+    },
+    {
+        "bookingid": 215
+    },
+    {
+        "bookingid": 482
+    },
+    {
+        "bookingid": 381
+    },
+    {
+        "bookingid": 731
+    },
+    {
+        "bookingid": 547
+    },
+    {
+        "bookingid": 769
+    },
+    {
+        "bookingid": 307
+    },
+    {
+        "bookingid": 489
+    },
+    {
+        "bookingid": 318
+    },
+    {
+        "bookingid": 750
+    },
+    {
+        "bookingid": 530
+    },
+    {
+        "bookingid": 316
+    },
+    {
+        "bookingid": 237
+    },
+    {
+        "bookingid": 739
+    },
+    {
+        "bookingid": 369
+    },
+    {
+        "bookingid": 198
+    },
+    {
+        "bookingid": 892
+    },
+    {
+        "bookingid": 32
+    },
+    {
+        "bookingid": 116
+    },
+    {
+        "bookingid": 231
+    },
+    {
+        "bookingid": 25
+    },
+    {
+        "bookingid": 811
+    },
+    {
+        "bookingid": 824
+    },
+    {
+        "bookingid": 767
+    },
+    {
+        "bookingid": 743
+    },
+    {
+        "bookingid": 382
+    },
+    {
+        "bookingid": 546
+    },
+    {
+        "bookingid": 355
+    },
+    {
+        "bookingid": 291
+    },
+    {
+        "bookingid": 553
+    },
+    {
+        "bookingid": 78
+    },
+    {
+        "bookingid": 60
+    },
+    {
+        "bookingid": 247
+    },
+    {
+        "bookingid": 694
+    },
+    {
+        "bookingid": 808
+    },
+    {
+        "bookingid": 475
+    },
+    {
+        "bookingid": 396
+    },
+    {
+        "bookingid": 186
+    },
+    {
+        "bookingid": 866
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 92
+    },
+    {
+        "bookingid": 759
+    },
+    {
+        "bookingid": 195
+    },
+    {
+        "bookingid": 456
+    },
+    {
+        "bookingid": 722
+    },
+    {
+        "bookingid": 859
+    },
+    {
+        "bookingid": 265
+    },
+    {
+        "bookingid": 151
+    },
+    {
+        "bookingid": 534
+    },
+    {
+        "bookingid": 802
+    },
+    {
+        "bookingid": 160
+    },
+    {
+        "bookingid": 617
+    },
+    {
+        "bookingid": 812
+    },
+    {
+        "bookingid": 817
+    },
+    {
+        "bookingid": 779
+    },
+    {
+        "bookingid": 563
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 648
+    },
+    {
+        "bookingid": 687
+    },
+    {
+        "bookingid": 469
+    },
+    {
+        "bookingid": 52
+    },
+    {
+        "bookingid": 467
+    },
+    {
+        "bookingid": 163
+    },
+    {
+        "bookingid": 334
+    },
+    {
+        "bookingid": 306
+    },
+    {
+        "bookingid": 903
+    },
+    {
+        "bookingid": 654
+    },
+    {
+        "bookingid": 205
+    },
+    {
+        "bookingid": 540
+    },
+    {
+        "bookingid": 27
+    },
+    {
+        "bookingid": 532
+    },
+    {
+        "bookingid": 504
+    },
+    {
+        "bookingid": 322
+    },
+    {
+        "bookingid": 770
+    },
+    {
+        "bookingid": 707
+    },
+    {
+        "bookingid": 36
+    },
+    {
+        "bookingid": 784
+    },
+    {
+        "bookingid": 662
+    },
+    {
+        "bookingid": 297
+    },
+    {
+        "bookingid": 689
+    },
+    {
+        "bookingid": 424
+    },
+    {
+        "bookingid": 323
+    },
+    {
+        "bookingid": 816
+    },
+    {
+        "bookingid": 146
+    },
+    {
+        "bookingid": 545
+    },
+    {
+        "bookingid": 97
+    },
+    {
+        "bookingid": 395
+    },
+    {
+        "bookingid": 403
+    },
+    {
+        "bookingid": 555
+    },
+    {
+        "bookingid": 465
+    },
+    {
+        "bookingid": 919
+    },
+    {
+        "bookingid": 594
+    },
+    {
+        "bookingid": 533
+    },
+    {
+        "bookingid": 96
+    },
+    {
+        "bookingid": 610
+    },
+    {
+        "bookingid": 728
+    },
+    {
+        "bookingid": 638
+    },
+    {
+        "bookingid": 838
+    },
+    {
+        "bookingid": 639
+    },
+    {
+        "bookingid": 883
+    },
+    {
+        "bookingid": 423
+    },
+    {
+        "bookingid": 867
+    },
+    {
+        "bookingid": 290
+    },
+    {
+        "bookingid": 470
+    },
+    {
+        "bookingid": 357
+    },
+    {
+        "bookingid": 583
+    },
+    {
+        "bookingid": 706
+    },
+    {
+        "bookingid": 376
+    },
+    {
+        "bookingid": 810
+    },
+    {
+        "bookingid": 418
+    },
+    {
+        "bookingid": 271
+    },
+    {
+        "bookingid": 192
+    },
+    {
+        "bookingid": 834
+    },
+    {
+        "bookingid": 324
+    },
+    {
+        "bookingid": 71
+    },
+    {
+        "bookingid": 560
+    },
+    {
+        "bookingid": 268
+    },
+    {
+        "bookingid": 135
+    },
+    {
+        "bookingid": 902
+    },
+    {
+        "bookingid": 756
+    },
+    {
+        "bookingid": 339
+    },
+    {
+        "bookingid": 611
+    },
+    {
+        "bookingid": 289
+    },
+    {
+        "bookingid": 128
+    },
+    {
+        "bookingid": 397
+    },
+    {
+        "bookingid": 568
+    },
+    {
+        "bookingid": 930
+    },
+    {
+        "bookingid": 276
+    },
+    {
+        "bookingid": 787
+    },
+    {
+        "bookingid": 565
+    },
+    {
+        "bookingid": 917
+    },
+    {
+        "bookingid": 877
+    },
+    {
+        "bookingid": 481
+    },
+    {
+        "bookingid": 642
+    },
+    {
+        "bookingid": 823
+    },
+    {
+        "bookingid": 73
+    },
+    {
+        "bookingid": 76
+    },
+    {
+        "bookingid": 878
+    },
+    {
+        "bookingid": 149
+    },
+    {
+        "bookingid": 622
+    },
+    {
+        "bookingid": 502
+    },
+    {
+        "bookingid": 346
+    },
+    {
+        "bookingid": 266
+    },
+    {
+        "bookingid": 401
+    },
+    {
+        "bookingid": 264
+    },
+    {
+        "bookingid": 484
+    },
+    {
+        "bookingid": 701
+    },
+    {
+        "bookingid": 308
+    },
+    {
+        "bookingid": 288
+    },
+    {
+        "bookingid": 80
+    },
+    {
+        "bookingid": 452
+    },
+    {
+        "bookingid": 821
+    },
+    {
+        "bookingid": 773
+    },
+    {
+        "bookingid": 141
+    },
+    {
+        "bookingid": 882
+    },
+    {
+        "bookingid": 680
+    },
+    {
+        "bookingid": 765
+    },
+    {
+        "bookingid": 740
+    },
+    {
+        "bookingid": 454
+    },
+    {
+        "bookingid": 541
+    },
+    {
+        "bookingid": 820
+    },
+    {
+        "bookingid": 526
+    },
+    {
+        "bookingid": 850
+    },
+    {
+        "bookingid": 708
+    },
+    {
+        "bookingid": 183
+    },
+    {
+        "bookingid": 373
+    },
+    {
+        "bookingid": 897
+    },
+    {
+        "bookingid": 7
+    },
+    {
+        "bookingid": 886
+    },
+    {
+        "bookingid": 405
+    },
+    {
+        "bookingid": 608
+    },
+    {
+        "bookingid": 781
+    },
+    {
+        "bookingid": 660
+    },
+    {
+        "bookingid": 389
+    },
+    {
+        "bookingid": 44
+    },
+    {
+        "bookingid": 66
+    },
+    {
+        "bookingid": 65
+    },
+    {
+        "bookingid": 94
+    },
+    {
+        "bookingid": 142
+    },
+    {
+        "bookingid": 625
+    },
+    {
+        "bookingid": 154
+    },
+    {
+        "bookingid": 725
+    },
+    {
+        "bookingid": 385
+    },
+    {
+        "bookingid": 51
+    },
+    {
+        "bookingid": 818
+    },
+    {
+        "bookingid": 445
+    },
+    {
+        "bookingid": 592
+    },
+    {
+        "bookingid": 588
+    },
+    {
+        "bookingid": 483
+    },
+    {
+        "bookingid": 114
+    },
+    {
+        "bookingid": 663
+    },
+    {
+        "bookingid": 710
+    },
+    {
+        "bookingid": 910
+    },
+    {
+        "bookingid": 136
+    },
+    {
+        "bookingid": 841
+    },
+    {
+        "bookingid": 626
+    },
+    {
+        "bookingid": 392
+    },
+    {
+        "bookingid": 82
+    },
+    {
+        "bookingid": 31
+    },
+    {
+        "bookingid": 712
+    },
+    {
+        "bookingid": 925
+    },
+    {
+        "bookingid": 166
+    },
+    {
+        "bookingid": 827
+    },
+    {
+        "bookingid": 61
+    },
+    {
+        "bookingid": 232
+    },
+    {
+        "bookingid": 109
+    },
+    {
+        "bookingid": 223
+    },
+    {
+        "bookingid": 904
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 490
+    },
+    {
+        "bookingid": 327
+    },
+    {
+        "bookingid": 828
+    },
+    {
+        "bookingid": 234
+    },
+    {
+        "bookingid": 842
+    },
+    {
+        "bookingid": 544
+    },
+    {
+        "bookingid": 17
+    },
+    {
+        "bookingid": 720
+    },
+    {
+        "bookingid": 714
+    },
+    {
+        "bookingid": 589
+    },
+    {
+        "bookingid": 300
+    },
+    {
+        "bookingid": 857
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 631
+    },
+    {
+        "bookingid": 786
+    },
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 865
+    },
+    {
+        "bookingid": 328
+    },
+    {
+        "bookingid": 253
+    },
+    {
+        "bookingid": 675
+    },
+    {
+        "bookingid": 54
+    },
+    {
+        "bookingid": 570
+    },
+    {
+        "bookingid": 89
+    },
+    {
+        "bookingid": 24
+    },
+    {
+        "bookingid": 508
+    },
+    {
+        "bookingid": 599
+    },
+    {
+        "bookingid": 875
+    },
+    {
+        "bookingid": 551
+    },
+    {
+        "bookingid": 421
+    },
+    {
+        "bookingid": 696
+    },
+    {
+        "bookingid": 261
+    },
+    {
+        "bookingid": 518
+    },
+    {
+        "bookingid": 803
+    },
+    {
+        "bookingid": 472
+    },
+    {
+        "bookingid": 20
+    },
+    {
+        "bookingid": 226
+    },
+    {
+        "bookingid": 602
+    },
+    {
+        "bookingid": 805
+    },
+    {
+        "bookingid": 196
+    },
+    {
+        "bookingid": 391
+    },
+    {
+        "bookingid": 259
+    },
+    {
+        "bookingid": 239
+    },
+    {
+        "bookingid": 90
+    },
+    {
+        "bookingid": 796
+    },
+    {
+        "bookingid": 137
+    },
+    {
+        "bookingid": 453
+    },
+    {
+        "bookingid": 378
+    },
+    {
+        "bookingid": 22
+    },
+    {
+        "bookingid": 91
+    },
+    {
+        "bookingid": 190
+    },
+    {
+        "bookingid": 108
+    },
+    {
+        "bookingid": 895
+    },
+    {
+        "bookingid": 912
+    },
+    {
+        "bookingid": 760
+    },
+    {
+        "bookingid": 341
+    },
+    {
+        "bookingid": 488
+    },
+    {
+        "bookingid": 849
+    },
+    {
+        "bookingid": 148
+    },
+    {
+        "bookingid": 126
+    },
+    {
+        "bookingid": 789
+    },
+    {
+        "bookingid": 245
+    },
+    {
+        "bookingid": 524
+    },
+    {
+        "bookingid": 619
+    },
+    {
+        "bookingid": 270
+    },
+    {
+        "bookingid": 738
+    },
+    {
+        "bookingid": 295
+    },
+    {
+        "bookingid": 124
+    },
+    {
+        "bookingid": 719
+    },
+    {
+        "bookingid": 935
+    },
+    {
+        "bookingid": 496
+    },
+    {
+        "bookingid": 595
+    },
+    {
+        "bookingid": 907
+    },
+    {
+        "bookingid": 463
+    },
+    {
+        "bookingid": 658
+    },
+    {
+        "bookingid": 111
+    },
+    {
+        "bookingid": 177
+    },
+    {
+        "bookingid": 668
+    },
+    {
+        "bookingid": 38
+    },
+    {
+        "bookingid": 491
+    },
+    {
+        "bookingid": 684
+    },
+    {
+        "bookingid": 438
+    },
+    {
+        "bookingid": 103
+    },
+    {
+        "bookingid": 57
+    },
+    {
+        "bookingid": 272
+    },
+    {
+        "bookingid": 746
+    },
+    {
+        "bookingid": 250
+    },
+    {
+        "bookingid": 447
+    },
+    {
+        "bookingid": 934
+    },
+    {
+        "bookingid": 15
+    },
+    {
+        "bookingid": 885
+    },
+    {
+        "bookingid": 81
+    },
+    {
+        "bookingid": 101
+    },
+    {
+        "bookingid": 762
+    },
+    {
+        "bookingid": 224
+    },
+    {
+        "bookingid": 333
+    },
+    {
+        "bookingid": 400
+    },
+    {
+        "bookingid": 852
+    },
+    {
+        "bookingid": 375
+    },
+    {
+        "bookingid": 343
+    },
+    {
+        "bookingid": 644
+    },
+    {
+        "bookingid": 277
+    },
+    {
+        "bookingid": 330
+    },
+    {
+        "bookingid": 298
+    },
+    {
+        "bookingid": 353
+    },
+    {
+        "bookingid": 923
+    },
+    {
+        "bookingid": 49
+    },
+    {
+        "bookingid": 152
+    },
+    {
+        "bookingid": 299
+    },
+    {
+        "bookingid": 362
+    },
+    {
+        "bookingid": 416
+    },
+    {
+        "bookingid": 39
+    },
+    {
+        "bookingid": 872
+    },
+    {
+        "bookingid": 366
+    },
+    {
+        "bookingid": 336
+    },
+    {
+        "bookingid": 734
+    },
+    {
+        "bookingid": 807
+    },
+    {
+        "bookingid": 908
+    },
+    {
+        "bookingid": 517
+    },
+    {
+        "bookingid": 386
+    },
+    {
+        "bookingid": 37
+    },
+    {
+        "bookingid": 509
+    },
+    {
+        "bookingid": 99
+    },
+    {
+        "bookingid": 918
+    },
+    {
+        "bookingid": 349
+    },
+    {
+        "bookingid": 220
+    },
+    {
+        "bookingid": 107
+    },
+    {
+        "bookingid": 249
+    },
+    {
+        "bookingid": 479
+    },
+    {
+        "bookingid": 286
+    },
+    {
+        "bookingid": 775
+    },
+    {
+        "bookingid": 536
+    },
+    {
+        "bookingid": 350
+    },
+    {
+        "bookingid": 258
+    },
+    {
+        "bookingid": 204
+    },
+    {
+        "bookingid": 347
+    },
+    {
+        "bookingid": 550
+    },
+    {
+        "bookingid": 404
+    },
+    {
+        "bookingid": 206
+    },
+    {
+        "bookingid": 581
+    },
+    {
+        "bookingid": 371
+    },
+    {
+        "bookingid": 87
+    },
+    {
+        "bookingid": 587
+    },
+    {
+        "bookingid": 503
+    },
+    {
+        "bookingid": 650
+    },
+    {
+        "bookingid": 218
+    },
+    {
+        "bookingid": 303
+    },
+    {
+        "bookingid": 119
+    },
+    {
+        "bookingid": 616
+    },
+    {
+        "bookingid": 862
+    },
+    {
+        "bookingid": 757
+    },
+    {
+        "bookingid": 282
+    },
+    {
+        "bookingid": 634
+    },
+    {
+        "bookingid": 243
+    },
+    {
+        "bookingid": 85
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 207
+    },
+    {
+        "bookingid": 727
+    },
+    {
+        "bookingid": 520
+    },
+    {
+        "bookingid": 752
+    },
+    {
+        "bookingid": 133
+    },
+    {
+        "bookingid": 117
+    },
+    {
+        "bookingid": 879
+    },
+    {
+        "bookingid": 473
+    },
+    {
+        "bookingid": 402
+    },
+    {
+        "bookingid": 175
+    },
+    {
+        "bookingid": 840
+    },
+    {
+        "bookingid": 172
+    },
+    {
+        "bookingid": 674
+    },
+    {
+        "bookingid": 774
+    },
+    {
+        "bookingid": 443
+    },
+    {
+        "bookingid": 567
+    },
+    {
+        "bookingid": 171
+    },
+    {
+        "bookingid": 255
+    },
+    {
+        "bookingid": 612
+    },
+    {
+        "bookingid": 889
+    },
+    {
+        "bookingid": 499
+    },
+    {
+        "bookingid": 58
+    },
+    {
+        "bookingid": 492
+    },
+    {
+        "bookingid": 853
+    },
+    {
+        "bookingid": 835
+    },
+    {
+        "bookingid": 30
+    },
+    {
+        "bookingid": 442
+    },
+    {
+        "bookingid": 358
+    },
+    {
+        "bookingid": 45
+    },
+    {
+        "bookingid": 768
+    },
+    {
+        "bookingid": 110
+    },
+    {
+        "bookingid": 428
+    },
+    {
+        "bookingid": 846
+    },
+    {
+        "bookingid": 901
+    },
+    {
+        "bookingid": 695
+    },
+    {
+        "bookingid": 826
+    },
+    {
+        "bookingid": 431
+    },
+    {
+        "bookingid": 387
+    },
+    {
+        "bookingid": 411
+    },
+    {
+        "bookingid": 461
+    },
+    {
+        "bookingid": 55
+    },
+    {
+        "bookingid": 370
+    },
+    {
+        "bookingid": 791
+    },
+    {
+        "bookingid": 181
+    },
+    {
+        "bookingid": 657
+    },
+    {
+        "bookingid": 287
+    },
+    {
+        "bookingid": 884
+    },
+    {
+        "bookingid": 84
+    },
+    {
+        "bookingid": 790
+    },
+    {
+        "bookingid": 313
+    },
+    {
+        "bookingid": 26
+    },
+    {
+        "bookingid": 677
+    },
+    {
+        "bookingid": 922
+    },
+    {
+        "bookingid": 279
+    },
+    {
+        "bookingid": 606
+    },
+    {
+        "bookingid": 844
+    },
+    {
+        "bookingid": 580
+    },
+    {
+        "bookingid": 437
+    },
+    {
+        "bookingid": 122
+    },
+    {
+        "bookingid": 433
+    },
+    {
+        "bookingid": 409
+    },
+    {
+        "bookingid": 600
+    },
+    {
+        "bookingid": 513
+    },
+    {
+        "bookingid": 193
+    },
+    {
+        "bookingid": 47
+    },
+    {
+        "bookingid": 511
+    },
+    {
+        "bookingid": 361
+    },
+    {
+        "bookingid": 621
+    },
+    {
+        "bookingid": 229
+    },
+    {
+        "bookingid": 77
+    },
+    {
+        "bookingid": 72
+    },
+    {
+        "bookingid": 321
+    },
+    {
+        "bookingid": 669
+    },
+    {
+        "bookingid": 344
+    },
+    {
+        "bookingid": 671
+    },
+    {
+        "bookingid": 928
+    },
+    {
+        "bookingid": 898
+    },
+    {
+        "bookingid": 931
+    },
+    {
+        "bookingid": 605
+    },
+    {
+        "bookingid": 697
+    },
+    {
+        "bookingid": 682
+    },
+    {
+        "bookingid": 665
+    },
+    {
+        "bookingid": 241
+    },
+    {
+        "bookingid": 304
+    },
+    {
+        "bookingid": 105
+    },
+    {
+        "bookingid": 630
+    },
+    {
+        "bookingid": 747
+    },
+    {
+        "bookingid": 118
+    },
+    {
+        "bookingid": 763
+    },
+    {
+        "bookingid": 68
+    },
+    {
+        "bookingid": 577
+    },
+    {
+        "bookingid": 561
+    },
+    {
+        "bookingid": 238
+    },
+    {
+        "bookingid": 157
+    },
+    {
+        "bookingid": 576
+    },
+    {
+        "bookingid": 753
+    },
+    {
+        "bookingid": 422
+    },
+    {
+        "bookingid": 704
+    },
+    {
+        "bookingid": 197
+    },
+    {
+        "bookingid": 187
+    },
+    {
+        "bookingid": 924
+    },
+    {
+        "bookingid": 28
+    },
+    {
+        "bookingid": 909
+    },
+    {
+        "bookingid": 478
+    },
+    {
+        "bookingid": 169
+    },
+    {
+        "bookingid": 460
+    },
+    {
+        "bookingid": 161
+    },
+    {
+        "bookingid": 439
+    },
+    {
+        "bookingid": 574
+    },
+    {
+        "bookingid": 363
+    },
+    {
+        "bookingid": 655
+    },
+    {
+        "bookingid": 794
+    },
+    {
+        "bookingid": 505
+    },
+    {
+        "bookingid": 256
+    },
+    {
+        "bookingid": 13
+    },
+    {
+        "bookingid": 557
+    },
+    {
+        "bookingid": 539
+    },
+    {
+        "bookingid": 683
+    },
+    {
+        "bookingid": 798
+    },
+    {
+        "bookingid": 755
+    },
+    {
+        "bookingid": 497
+    },
+    {
+        "bookingid": 498
+    },
+    {
+        "bookingid": 145
+    },
+    {
+        "bookingid": 538
+    },
+    {
+        "bookingid": 653
+    },
+    {
+        "bookingid": 537
+    },
+    {
+        "bookingid": 782
+    },
+    {
+        "bookingid": 646
+    },
+    {
+        "bookingid": 16
+    },
+    {
+        "bookingid": 690
+    },
+    {
+        "bookingid": 874
+    },
+    {
+        "bookingid": 559
+    },
+    {
+        "bookingid": 280
+    },
+    {
+        "bookingid": 635
+    },
+    {
+        "bookingid": 729
+    },
+    {
+        "bookingid": 744
+    },
+    {
+        "bookingid": 417
+    },
+    {
+        "bookingid": 436
+    },
+    {
+        "bookingid": 356
+    },
+    {
+        "bookingid": 158
+    },
+    {
+        "bookingid": 780
+    },
+    {
+        "bookingid": 795
+    },
+    {
+        "bookingid": 50
+    },
+    {
+        "bookingid": 23
+    },
+    {
+        "bookingid": 200
+    },
+    {
+        "bookingid": 586
+    },
+    {
+        "bookingid": 449
+    },
+    {
+        "bookingid": 667
+    },
+    {
+        "bookingid": 164
+    },
+    {
+        "bookingid": 799
+    },
+    {
+        "bookingid": 896
+    },
+    {
+        "bookingid": 367
+    },
+    {
+        "bookingid": 718
+    },
+    {
+        "bookingid": 314
+    },
+    {
+        "bookingid": 629
+    },
+    {
+        "bookingid": 528
+    },
+    {
+        "bookingid": 430
+    },
+    {
+        "bookingid": 43
+    },
+    {
+        "bookingid": 836
+    },
+    {
+        "bookingid": 294
+    },
+    {
+        "bookingid": 174
+    },
+    {
+        "bookingid": 79
+    },
+    {
+        "bookingid": 679
+    },
+    {
+        "bookingid": 113
+    },
+    {
+        "bookingid": 623
+    },
+    {
+        "bookingid": 21
+    },
+    {
+        "bookingid": 512
+    },
+    {
+        "bookingid": 582
+    },
+    {
+        "bookingid": 733
+    },
+    {
+        "bookingid": 831
+    },
+    {
+        "bookingid": 637
+    },
+    {
+        "bookingid": 713
+    },
+    {
+        "bookingid": 603
+    },
+    {
+        "bookingid": 46
+    },
+    {
+        "bookingid": 737
+    },
+    {
+        "bookingid": 893
+    },
+    {
+        "bookingid": 62
+    },
+    {
+        "bookingid": 309
+    },
+    {
+        "bookingid": 182
+    },
+    {
+        "bookingid": 451
+    },
+    {
+        "bookingid": 575
+    },
+    {
+        "bookingid": 457
+    },
+    {
+        "bookingid": 67
+    },
+    {
+        "bookingid": 673
+    },
+    {
+        "bookingid": 876
+    },
+    {
+        "bookingid": 800
+    },
+    {
+        "bookingid": 864
+    },
+    {
+        "bookingid": 628
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 329
+    },
+    {
+        "bookingid": 210
+    },
+    {
+        "bookingid": 685
+    },
+    {
+        "bookingid": 368
+    },
+    {
+        "bookingid": 312
+    },
+    {
+        "bookingid": 86
+    },
+    {
+        "bookingid": 281
+    },
+    {
+        "bookingid": 202
+    },
+    {
+        "bookingid": 176
+    },
+    {
+        "bookingid": 42
+    },
+    {
+        "bookingid": 860
+    },
+    {
+        "bookingid": 394
+    },
+    {
+        "bookingid": 613
+    },
+    {
+        "bookingid": 188
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingIdsFilteringByDate" classname="tests.getbooking.GetBookingIdsTest" time="0.0">
+    <skipped message="void tests.getbooking.GetBookingIdsTest.getBookingIdsFilteringByDate() is @Disabled"/>
+  </testcase>
+  <testcase name="getBookingIdsFilteringByName" classname="tests.getbooking.GetBookingIdsTest" time="1.373">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+[
+    {
+        "bookingid": 779
+    },
+    {
+        "bookingid": 756
+    }
+]
+HTTP/1.1 200 OK
+{
+    "firstname": "Andrey",
+    "lastname": "Dorokhin",
+    "totalprice": 10000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2026-01-01",
+        "checkout": "2026-03-10"
+    },
+    "additionalneeds": "Do not disturbed"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
