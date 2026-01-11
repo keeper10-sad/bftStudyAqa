@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="trx-plugin-2.20.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.allure/allure-2.20.1/plugins/trx-plugin/trx-plugin-2.20.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
