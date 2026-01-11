@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xctest-plugin-2.20.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.allure/allure-2.20.1/plugins/xctest-plugin/xctest-plugin-2.20.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="Обработка исключений">
-      <change afterPath="$PROJECT_DIR$/lesson14/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14/src/test/java/Box.java" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="Автотесты API https://restful-booker.herokuapp.com/apidoc/index.html с помощью REST ASSURED">
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/page/PracticeForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/page/components/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/page/components/ResultModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/page/enums/DateValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/page/enums/InvalidValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/page/enums/RequiredInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/settings/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/tests/DateBirthValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/tests/PhoneEmailValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/tests/RequiredInputValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/tests/SuccesfullSubmitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/java/utils/UtilsCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diplomProjectUI/src/test/resources/1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -21,11 +32,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SimpleSourceFile" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -33,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="firstCode" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,49 +89,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Box.executor": "Run",
-    "Application.Deposite (1).executor": "Run",
-    "Application.Deposite (2).executor": "Run",
-    "Application.Deposite.executor": "Run",
-    "Application.Employee.executor": "Run",
-    "Application.Instrument (1).executor": "Run",
-    "Application.Instrument$Guitar.executor": "Run",
-    "Application.Instrument$Piano.executor": "Run",
-    "Application.Instrument.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Massive.executor": "Run",
-    "Application.Random.executor": "Run",
-    "Application.RandomNumbers.executor": "Run",
-    "Application.Replace.executor": "Run",
-    "Application.lesson5.Deposite.executor": "Run",
-    "Application.lesson5for.Deposite.executor": "Run",
-    "Application.lesson5while.Deposite.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.Exceptions.exception.executor": "Run",
-    "JUnit.NewExceptions.exception.executor": "Run",
-    "JUnit.SearchPageTest.test.executor": "Run",
-    "JUnit.SuccesTest.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "firstCode",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa",
-    "onboarding.tips.debug.path": "C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson9/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Box.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deposite (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deposite (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Deposite.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Employee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Instrument (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Instrument$Guitar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Instrument$Piano.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Instrument.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Massive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Random.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Replace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson5.Deposite.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson5for.Deposite.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lesson5while.Deposite.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.Exceptions.exception.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NewExceptions.exception.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchPageTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SuccesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;firstCode&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/a.dorokhin/IdeaProjects/bftStudyAqa/lesson9/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\lesson11" />
@@ -174,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Box" />
-        <item itemvalue="JUnit.Exceptions.exception" />
-        <item itemvalue="JUnit.NewExceptions.exception" />
-        <item itemvalue="JUnit.NewExceptions.exception" />
+        <item itemvalue="JUnit.SuccesTest" />
         <item itemvalue="JUnit.SearchPageTest.test" />
+        <item itemvalue="JUnit.NewExceptions.exception" />
+        <item itemvalue="JUnit.Exceptions.exception" />
+        <item itemvalue="Application.Box" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +294,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="firstCode" />
+                        <option value="origin/firstCode" />
                       </list>
                     </value>
                   </entry>

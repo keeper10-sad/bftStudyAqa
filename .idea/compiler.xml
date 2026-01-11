@@ -9,6 +9,7 @@
       <directory url="file://$PROJECT_DIR$/lesson12/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/lesson13/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/diplomProjectUI/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -19,11 +20,13 @@
         <module name="lesson13" />
         <module name="lesson14" />
         <module name="lesson11" />
+        <module name="diplomProjectUI" />
         <module name="lesson12" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="777" target="25" />
+      <module name="diplom_project" target="1.8" />
       <module name="lesson5" target="1.8" />
       <module name="lesson6" target="25" />
       <module name="lesson8" target="16" />
