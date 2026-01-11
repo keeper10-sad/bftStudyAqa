@@ -4,45 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="UI-автотесты формы авторизации https://demoqa.com/automation-practice-form">
-      <change afterPath="$PROJECT_DIR$/diplom_project/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/page/PracticeForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/page/components/Calendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/page/components/ResultModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/page/enums/DateValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/page/enums/InvalidValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/page/enums/RequiredInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/settings/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/test/DateBirthValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/test/PhoneEmailValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/test/RequiredInputValidationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/test/SuccesfullSubmitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/java/utils/UtilsCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project/src/test/resources/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/components/enums/BodyWithInvalidDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/components/enums/NotValidData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/components/enums/NotValidDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/components/enums/RequiredInputs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/components/enums/UpdateInvalidData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/components/enums/UpdateRequredInputs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/settings/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/tests/createbooking/CreateBookingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/tests/delete/DeleteBookingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/tests/getbooking/GetBookingIdsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/tests/getbooking/GetBookingsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/tests/update/PartialUpdateBookingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/tests/update/UpdateBookingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/utils/CreateBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/diplom_project_api/src/test/java/utils/CreateToken.java" afterDir="false" />
+    <list default="true" id="d6ad4d73-0d02-458b-98c8-99cf90c916a1" name="Changes" comment="Обработка исключений">
+      <change afterPath="$PROJECT_DIR$/lesson14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14/src/test/java/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -58,8 +26,6 @@
       <list>
         <option value="SimpleSourceFile" />
         <option value="Interface" />
-        <option value="package-info" />
-        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -126,63 +92,10 @@
     "Application.lesson5for.Deposite.executor": "Run",
     "Application.lesson5while.Deposite.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.CreateBookingTest.createBookingSuccessGivenId.executor": "Run",
-    "JUnit.CreateBookingTest.createBookingWithInvalidDates.executor": "Run",
-    "JUnit.CreateBookingTest.createBookingWithNotValidData.executor": "Run",
-    "JUnit.CreateBookingTest.createBookingWithoutRequiredInput (1).executor": "Run",
-    "JUnit.CreateBookingTest.createBookingWithoutRequiredInput.executor": "Run",
-    "JUnit.CreateBookingTest.cretaeBookingWithEmptyBody.executor": "Run",
-    "JUnit.DateBirthValidation.birtDateValidation.executor": "Run",
-    "JUnit.DateBirthValidationTest.birtDateValidation.executor": "Run",
-    "JUnit.DeleteBookingTest.deleteBookingWithInvalidIds.executor": "Run",
-    "JUnit.DeleteBookingTest.deleteBookingWithoutAuth.executor": "Run",
-    "JUnit.DeleteBookingTest.successDeleteBooking.executor": "Run",
     "JUnit.Exceptions.exception.executor": "Run",
-    "JUnit.GetBookingIdsTest.executor": "Run",
-    "JUnit.GetBookingIdsTest.getBookingIdsFilteringByDate.executor": "Run",
-    "JUnit.GetBookingIdsTest.getBookingIdsFilteringByName (1).executor": "Run",
-    "JUnit.GetBookingIdsTest.getBookingIdsFilteringByName.executor": "Run",
-    "JUnit.GetBookingIdsTest.getBookingIdsFilteringByNameAndDate.executor": "Debug",
-    "JUnit.GetBookingIdsTest.getBookingIdsFilteringNotExistName.executor": "Run",
-    "JUnit.GetBookingIdsTest.getBookingIdsFilteringNotExistValues.executor": "Run",
-    "JUnit.GetBookingIdsTest.getBookingIdsFilteringNotValidDate.executor": "Run",
-    "JUnit.GetBookingIdsTest.getBookingIdsGivenList.executor": "Run",
-    "JUnit.GetBookingTest.checkBookingId.executor": "Run",
-    "JUnit.GetBookingTest.executor": "Run",
-    "JUnit.GetBookingTest.getBookingGivenList.executor": "Run",
-    "JUnit.GetBookingTest.getBookingIdsGivenList.executor": "Run",
-    "JUnit.GetBookingTest.getBookingList.executor": "Run",
-    "JUnit.GetBookingsTest.executor": "Run",
-    "JUnit.GetBookingsTest.getBookingsGivenBookings.executor": "Run",
-    "JUnit.GetBookingsTest.getBookingsintsByNotExistId.executor": "Run",
-    "JUnit.GetBookingsWithStatus200.getAllBookingIds_withStatus200.executor": "Run",
-    "JUnit.InputFormTest.executor": "Run",
-    "JUnit.InputFormTest.test.executor": "Run",
     "JUnit.NewExceptions.exception.executor": "Run",
-    "JUnit.PartialUpdateBookingTest.partialUpdateBookingWithEmptyBody.executor": "Run",
-    "JUnit.PartialUpdateBookingTest.partialUpdateBookingWithInvalidData.executor": "Run",
-    "JUnit.PartialUpdateBookingTest.partialUpdateBookingWithInvalidId.executor": "Run",
-    "JUnit.PartialUpdateBookingTest.partialUpdateBookingWithoutAuth.executor": "Run",
-    "JUnit.PartialUpdateBookingTest.successPartialUpdateBooking.executor": "Run",
-    "JUnit.PhoneEmailValidation.invalidPhoneEmailValidation.executor": "Run",
-    "JUnit.PhoneEmailValidationTest.invalidPhoneEmailValidation.executor": "Run",
-    "JUnit.RequiredInputValidation.requiredInputValidation (1).executor": "Run",
-    "JUnit.RequiredInputValidation.requiredInputValidation.executor": "Run",
-    "JUnit.RequiredInputValidationTest.requiredInputValidation.executor": "Run",
     "JUnit.SearchPageTest.test.executor": "Run",
     "JUnit.SuccesTest.executor": "Run",
-    "JUnit.SuccesfullSubmit.executor": "Run",
-    "JUnit.SuccesfullSubmit.test.executor": "Run",
-    "JUnit.SuccesfullSubmitTest.test.executor": "Run",
-    "JUnit.UpdateBookingTest.successUpdateBooking.executor": "Run",
-    "JUnit.UpdateBookingTest.updateBookingWithEmptyBody.executor": "Run",
-    "JUnit.UpdateBookingTest.updateBookingWithInvalidData.executor": "Run",
-    "JUnit.UpdateBookingTest.updateBookingWithInvalidId.executor": "Run",
-    "JUnit.UpdateBookingTest.updateBookingWithoutAuth.executor": "Run",
-    "JUnit.UpdateBookingTest.updateBookingWithoutOrNotExistId (1).executor": "Run",
-    "JUnit.UpdateBookingTest.updateBookingWithoutOrNotExistId.executor": "Run",
-    "JUnit.UpdateBookingTest.updateBookingWithoutRequiredInputs.executor": "Run",
-    "JUnit.test in diplom_project.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -203,100 +116,69 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project\src\test\resources" />
-      <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project\src\test\java\test\resources" />
-      <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\diplom_project\src\test\java\picture" />
       <recent name="C:\Users\a.dorokhin\IdeaProjects\bftStudyAqa\lesson11" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteBookingTest.deleteBookingWithInvalidIds">
-    <configuration name="DeleteBookingTest.deleteBookingWithInvalidIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diplom_project_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.delete.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.delete" />
-      <option name="MAIN_CLASS_NAME" value="tests.delete.DeleteBookingTest" />
-      <option name="METHOD_NAME" value="deleteBookingWithInvalidIds(java.lang.String)" />
+  <component name="RunManager" selected="Application.Box">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Box" />
+      <module name="lesson14" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exceptions.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson13" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exceptions" />
+      <option name="METHOD_NAME" value="exception" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteBookingTest.deleteBookingWithoutAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diplom_project_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.delete.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.delete" />
-      <option name="MAIN_CLASS_NAME" value="tests.delete.DeleteBookingTest" />
-      <option name="METHOD_NAME" value="deleteBookingWithoutAuth" />
+    <configuration name="NewExceptions.exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson13" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NewExceptions" />
+      <option name="METHOD_NAME" value="exception" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteBookingTest.successDeleteBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diplom_project_api" />
+    <configuration name="SearchPageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.delete.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.delete" />
-      <option name="MAIN_CLASS_NAME" value="tests.delete.DeleteBookingTest" />
-      <option name="METHOD_NAME" value="successDeleteBooking" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SearchPageTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartialUpdateBookingTest.partialUpdateBookingWithInvalidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diplom_project_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.update.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.update" />
-      <option name="MAIN_CLASS_NAME" value="tests.update.PartialUpdateBookingTest" />
-      <option name="METHOD_NAME" value="partialUpdateBookingWithInvalidData(components.enums.UpdateInvalidData)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PartialUpdateBookingTest.partialUpdateBookingWithInvalidId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="diplom_project_api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.update.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.update" />
-      <option name="MAIN_CLASS_NAME" value="tests.update.PartialUpdateBookingTest" />
-      <option name="METHOD_NAME" value="partialUpdateBookingWithInvalidId(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="SuccesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SuccesTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeleteBookingTest.deleteBookingWithInvalidIds" />
-        <item itemvalue="JUnit.DeleteBookingTest.deleteBookingWithoutAuth" />
-        <item itemvalue="JUnit.DeleteBookingTest.successDeleteBooking" />
-        <item itemvalue="JUnit.PartialUpdateBookingTest.partialUpdateBookingWithInvalidData" />
-        <item itemvalue="JUnit.PartialUpdateBookingTest.partialUpdateBookingWithInvalidId" />
+        <item itemvalue="Application.Box" />
+        <item itemvalue="JUnit.Exceptions.exception" />
+        <item itemvalue="JUnit.NewExceptions.exception" />
+        <item itemvalue="JUnit.NewExceptions.exception" />
+        <item itemvalue="JUnit.SearchPageTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -380,15 +262,7 @@
       <option name="project" value="LOCAL" />
       <updated>1763882753338</updated>
     </task>
-    <task id="LOCAL-00010" summary="Переборка коллекции итератором">
-      <option name="closed" value="true" />
-      <created>1764484978493</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1764484978493</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +298,6 @@
     <MESSAGE value="UI-тест поиск в Яндекс" />
     <MESSAGE value="UI-тест поиск в Яндекс c патернами PageObject и PageElement" />
     <MESSAGE value="Обработка исключений" />
-    <MESSAGE value="Переборка коллекции итератором" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переборка коллекции итератором" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обработка исключений" />
   </component>
 </project>
